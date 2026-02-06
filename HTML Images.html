@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>HTML Images</title>
+    </head>
+    
+    <body>
+        
+        <h1>HTML Images</h1>
+        
+        <p>The HTML <strong>img</strong> tag is used to embed an image in a web page.</p>
+        
+        <p>The <strong>img</strong> tag is empty, it contains attributes only, and does not have a closing tag.</p>
+        
+        <p>The required <strong>src</strong> attribute specifies the path (URL) to the image.</p>
+        
+        <p>The required <strong>alt</strong> attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).</p>
+        
+        <p>The value of the <strong>alt</strong> attribute should describe the image.</p>
+        
+        <p>You can use the <strong>style</strong> attribute to specify the <strong>width</strong> and <strong>height</strong> of an image.</p>
+        
+        <p>The <strong>width</strong> and <strong>height</strong> attributes always define the width and height of the image in pixels.</p>
+        
+        <h5>Example:</h5>
+        
+        <img src="images/image2.jpg" alt="A tree" height="600" width="480">
+        
+        <p>If a browser cannot find an image, it will display the value of the <strong>alt</strong> attribute.</p>
+        
+        <h5>Example:</h5>
+        
+        <img src="/no/image.jpg" alt="My Onesmus" width="480" height="600">
+        
+        <h2>Image as a Link</h2>
+        
+        <p>To use an image as a link, put the <strong>img</strong> tag inside the <strong>a</strong> tag.</p>
+        
+        <h5>Eaxample:</h5>
+        
+        <p>Click this image to open <b>My Portfolio</b>:</p>
+        
+        <a href="https://mutyauvyu.netlify.app/" target="_blank">
+        <img src="images/image1.jpg" alt="TTU" height="60" width="60">
+        </a>
+        
+        <h2>Image Floating</h2>
+        
+        <p>Use the CSS <strong>float</strong> property to let the image float to the <b>right</b> or to the <b>left</b> of a text.</p>
+        
+        <h5>Example:</h5>
+        
+        <p><img src="images/image1.jpg" alt="A Tree" style="float:right; width:80px" height:120px>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        <p><img src="images/image1.jpg" alt="A Tree" style="float:left; width:80px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br><br>
+        
+        <h2>HTML Background Images</h2>
+        
+        <p>To add a background image on an HTML element, use the HTML <strong>style</strong> attribute and the CSS <strong>background-image</strong> property.</p>
+        
+        <h5>Example:</h5>
+        
+        <p style="background-image:url('images/image1.jpg');">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud <br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>Duis aute irure dolor in reprehenderit in voluptate <br>velit esse cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br>deserunt mollit anim id est laborum.</p>
+</body>
+</html>

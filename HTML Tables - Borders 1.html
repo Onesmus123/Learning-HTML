@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Table - Borders 1</title>
+        
+        <style>
+        table{
+            width:50%;
+        }
+        table, th, td{
+            border:1px solid black;
+            border-collapse:collapse;
+            text-align: center;
+            padding: 6px;
+        }
+        td, th{
+            background-color:#faacda;
+        }
+        </style>
+    
+    </head>
+    
+    <body>
+        
+        <h1>HTML Table Borders</h2>
+        <p>HTML tables can have borders of different styles and shapes.</p>
+        <h2>How To Add a Border</h2>
+        <p>To add a border, use the CSS border property on <b>table</b>, <b>th</b>, and <b>td</b> elements.</p>
+        
+        <h2>Collapsed Table Borders</h2>
+        <p>To avoid having double borders, set the CSS <b>border-collapse</b> property to <b>collapse</b>.</p>
+        <p>This will make the borders collapse into a single border.</p>
+        
+        <h2>Style Table Borders</h2>
+        <p>If you set a background color of each cell, and give the border a white color (the same as the document background), you get the impression of an invisible border.</p>
+        
+        <table>
+            
+            <tr>
+                <th>Students' Name</th>
+                <th>Admission NO.</th>
+                <th>Age</th>
+            </tr>
+            
+            <tr>
+                <td>Onesmus Mutyauvyu </td>
+                <td>5613</td>
+                <td>25</td>
+            </tr>
+            
+            <tr>
+                <td>James Ngito</td>
+                <td>5400</td>
+                <td>26</td>
+            </tr>
+            
+            <tr>
+                <td>Paul Mwakavi</td>
+                <td>5256</td>
+                <td>27</td>
+            </tr>
+        </table>
+    </body>
+</html>

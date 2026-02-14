@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>HTML Tables - Horizontal Dividers & Hoverable Table</title>
+        
+        <style>
+            table, th, td{
+                border-collapse:collapse;
+            }
+            tr{
+                border-bottom: 1px solid black;
+            }
+            tr:hover{
+                background-color:#dafdca;
+            }
+            th, td{
+                padding:10px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h2>Horizontal Dividers</h2>
+        <p>If you specify borders only at the bottom of each table row, you will have a table with horizontal dividers.</p>
+        <p>Add the <b>border-bottom</b> property to all <b>tr</b> elements to get horizontal dividers.</p>
+        
+        <h2>Hoverable Table</h2>
+        <p>Use the <b>:hover</b> selector on <b>tr</b> to highlight table rows on mouse over.</p>
+        
+        <table style="width:70%;">
+            <tr>
+                <th>Students' Name</th>
+                <th>Admission NO.</th>
+                <th>Age</th>
+                <th>Grade Scored</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>Onesmus Mutyauvyu </td>
+                <td>5613</td>
+                <td>25</td>
+                <td>B+</td>
+                <td>Makadara</td>
+            </tr>
+            <tr>
+                <td>James Ngito</td>
+                <td>5400</td>
+                <td>26</td>
+                <td>B+</td>
+                <td>Mwingi</td>
+            </tr>
+            <tr>
+                <td>Paul Mwakavi</td>
+                <td>5256</td>
+                <td>27</td>
+                <td>B-</td>
+                <td>Matinyani</td>
+            </tr>
+            <tr>
+                <td>Evan Mutua</td>
+                <td>5253</td>
+                <td>27</td>
+                <td>B-</td>
+                <td>Pipeline</td>
+            </tr>
+            <tr>
+                <td>John Musee</td>
+                <td>5232</td>
+                <td>26</td>
+                <td>B+</td>
+                <td>Umoja</td>
+            </tr>
+        </table>
+    </body>
+    
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>HTML Tables - Table Sizes</title>
+        
+        <style>
+            table, th, td{
+                border:1px solid black;
+                border-collapse:collapse;
+            }
+            th, td{
+                background-color:rgba( 180, 180, 180);
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h2>HTML Table Sizes</h2>
+        <p>HTML tables can have different sizes for each column, row or the entire table.</p>
+        <p>Use the <b>style</b> attribute with the <b>width</b> or <b>height</b> properties to specify the size of a table, row or column.</p>
+        
+        <h3>HTML Table Width</h3>
+        <p>To set the width of a table, add the <b>style</b> attribute to the <strong>table</strong> element.</p>
+        <p><b>Note:</b> Using a percentage as the size unit for a width means how wide will this element be compared to its parent element, which in this case is the <b>body</b> element.</p>
+        
+        <h3>HTML Table Column Width</h3>
+        <p>To set the size of a specific column, add the <b>style</b> attribute on a <b>th</b> or <b>td</b> element.</p>
+        
+        <h3>HTML Table Row Height</h3>
+        <p>To set the height of a specific row, add the <b>style</b> attribute on a table row element.</p>
+        
+        <p><h5>Example:</h5>In this example;</p>
+        <ul>
+            <li>Set the width of the table to 100%</li>
+            <li>Set the width of the first column to 70%</li>
+            <li>Set the height of the second row to 200 pixels</li>
+        </ul>
+        
+        <table style="width:100%";>
+            <tr>
+                <th>Admission NO.</th>
+                <th style="width:70%";>Students' Name</th>
+                <th>Age</th>
+            </tr>
+            
+            <tr style="height:200px";>
+                <td>5613</td>
+                <td>Onesmus Mutyauvyu </td>
+                <td>25</td>
+            </tr>
+            
+            <tr>
+                <td>5400</td>
+                <td>James Ngito</td>
+                <td>26</td>
+            </tr>
+            
+            <tr>
+                <td>5256</td>
+                <td>Paul Mwakavi</td>
+                <td>27</td>
+            </tr>
+        </table>
+    </body>
+</html>

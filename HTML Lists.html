@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML lists</title>
+    </head>
+    
+    <body>
+        <h2>1. An Ordered HTML List.</h2>
+        <p>The list items will be marked with <mark>numbers by default</mark>:</p>
+        
+        <ol>
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ol>
+        
+        <h3>The type attribute:</h3><p>The type attribute of the <mark>ol tag</mark>, defines the type of the list item marker.</p>
+        
+        <p>Numbers:</p>
+        
+        <ol type="1">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ol>
+        
+        <p>Uppercase Letters:</p>
+        
+        <ol type="A">
+        <li>Kenya</li>
+        <li>Uganda</li>
+        <li>Tanzania</li>
+        </ol>
+        
+        <p>Lowercase Letters:</p>
+        <ol type="a">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ol>
+        
+        <p>Uppercase Roman Numbers:</p>
+        
+        <ol type="I">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ol>
+        
+        <p>Lowercase Roman Numbers:</p>
+        
+        <ol type="i">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ol>
+        
+        <h3>The start attribute:</h3>
+        
+        <p>By default, an ordered list will start counting from 1. Use the start attribute to start counting from a specified number:</p>
+        
+        <ol type="1" start="50">
+        <li>Kenya</li>
+        <li>Uganda</li>
+        <li>Tanzania</li>
+        </ol>
+        
+        <ol type="I" start="50">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ol>
+        
+        <h3>Nested HTML Lists:</h3>
+        
+        <ol>
+            <li>Coffee</li>
+            <li>Tea
+                <ol>
+                    <li>Black Tea</li>
+                    <li>Green Tea</li>
+                </ol>
+            </li>
+            <li>Cocoa</li>
+        </ol>
+        
+        <h2>2. An Unordered HTML List.</h2>
+        
+        <p>Disc:</p>
+        <ul style="list-style-type:disc">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ul>
+        
+        <p>Circle:</p>
+        
+        <ul style="list-style-type:circle">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ul>
+        
+        <p>Square:</p>
+        
+        <ul style="list-style-type:square">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ul>
+        
+        <p>None:</p>
+        <ul style="list-style-type:none">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+        </ul>
+        
+        <h3>Nested HTML List.</h3>
+        
+        <p>List inside a list.</p>
+        
+        <ul style="list-style-type:disc">
+            <li>Coffee</li>
+            <li>Tea
+                <ul style="list-style-type:circle">
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+            </ul>
+            </li>
+            <li>Cocoa</li>
+        </ul>
+        
+        <h3>Horizontal Lists.</h3>
+        
+        <p>Navigation Menu:</p>
+        
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#About">About</a></li>
+        </ul>
+        
+        <h3>Description Lists.</h3>
+        
+        <dl>
+            <dt>Mt. Kenya</dt>
+            <dd>-The tallest mountain in Kenya.</dd>
+            <dt>Nairobi</dt>
+            <dd>-The capital city of Kenya.</dd>
+        </dl>
+    </body>
+</html>
